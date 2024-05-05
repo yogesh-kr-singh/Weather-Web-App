@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://img.freepik.com/free-icon/rainy_318-774488.jpg">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+</head>
+<body>
+    
+    <nav>
+        <div class="logo">
+            <span>
+                <img src="https://img.freepik.com/free-icon/rainy_318-774488.jpg">
+            </span>
+            <h1>Weather App</h1>
+        </div>
+        <div class="input-field">
+            <input type="text" placeholder="Search City" id="input">
+            <button id="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+    </nav>
+    
+    <!-- Section -->
+    <section>
+        <div class="weather-contain">
+            <div id="child-1">
+                <h2>Country: <span id="country"></span></h2>
+                <h2>Local: <span id="time"></span></h2>
+                <h2>City: <span id="city"></span></h2>
+                <h2>State: <span id="state"></span></h2>
+            </div>
+           
+            <div id="child-2">
+                <h2>Cloud: <span id="cloud"></span></h2>
+                <h2>Text: <span id="text"><span id="text-icon"></span></span></h2>
+                <h2>Temperature: <span id="temp"></span> °</h2>
+            </div>
+            
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <Footer>&copy; All rights are reserved by Yogesh Raj.</Footer>
+    <script src="script.js"></script>
+</body>
+</html>
